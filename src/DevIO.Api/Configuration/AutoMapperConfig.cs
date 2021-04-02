@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using DevIO.Api.ViewModel;
+using DevIO.Api.ViewModels;
 using DevIO.Business.Models;
 
 namespace DevIO.Api.Configuration
