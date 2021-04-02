@@ -53,7 +53,7 @@ namespace DevIO.Api.Controllers
 
             if (!result) return BadRequest();
 
-            return Ok();
+            return Ok(fornecedor);
         }
 
         [HttpPut("{id:guid}")]
@@ -69,7 +69,7 @@ namespace DevIO.Api.Controllers
 
             if (!result) return BadRequest();
 
-            return Ok();
+            return Ok(fornecedor);
         }
 
         [HttpDelete("{id:guid}")]
